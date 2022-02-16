@@ -2,7 +2,7 @@
   min-height: 60vh;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center center;
   background-image: url("main.jpg");
 }
 
@@ -14,4 +14,27 @@
 
 .overlay {
   background-color: rgba(0, 0, 0, 0.35);
+}
+
+#logo {
+  color: #e85425;
+}
+
+nav {
+  background-color: #18444c;
+}
+
+nav ul li {
+  border-bottom: none !important;
+}
+nav ul li a {
+  padding: 0.3rem !important;
+  margin: 0.5rem !important;
+  color: white !important;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+}
+nav ul {
+  border-bottom: none !important;
 }
