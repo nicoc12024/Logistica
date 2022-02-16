@@ -8,7 +8,10 @@
 
 .content {
   min-height: 60vh;
-  background-color: rgba(0, 0, 0, 0.384);
   color: white;
   line-height: 1.2;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.35);
 }

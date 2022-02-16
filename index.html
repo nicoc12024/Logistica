@@ -41,18 +41,71 @@
 
   <!-- Main -->
   <section id="main">
-    <div class="container content flex-column  d-flex justify-content-center align-items-start">
-      <div class="row ">
-        <div class="col-8">
-          <h1>Nuestra Mision</h1>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit in ut dolorem, accusantium vitae eligendi
-            autem distinctio alias!</p>
-          <a class="btn btn-primary" href="#" role="button">Contáctanos!</a>
+    <div class="overlay">
+      <div class="container content flex-column  d-flex justify-content-center align-items-start">
+        <div class=""></div>
+        <div class="row ">
+          <div class="col-8">
+            <h1>Nuestra Mision</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit in ut dolorem, accusantium vitae
+              eligendi
+              autem distinctio alias!</p>
+            <a class="btn btn-primary" href="#" role="button">Contáctanos!</a>
 
+          </div>
         </div>
       </div>
+
     </div>
   </section>
+
+  <section id="form" class="container bg-light mt-5 p-5">
+    <div id="content" class="row">
+      <!-- Book Appointment -->
+      <div class="col-xl book-appointment mb-2">
+        <!-- Form -->
+        <form id="new-appointment">
+          <!-- Form Title -->
+          <legend class="mb-4">Formulario de Contacto</legend>
+          <!-- Form Group Name -->
+          <div class="mb-2 row">
+            <label class="col-md-4 col-lg-4 col-form-label">Nombre</label>
+            <div class="col-md-8 col-lg-8">
+              <input type="text" id="nombre" name="nombre" class="form-control" placeholder="Nombre">
+            </div>
+          </div>
+          <!-- Form Group Teléfono -->
+          <div class="mb-2 row">
+            <label class="col-md-4 col-lg-4 col-form-label">Teléfono</label>
+            <div class="col-md-8 col-lg-8">
+              <input type="tel" id="telefono" name="telefono" class="form-control" placeholder="Teléfono">
+            </div>
+          </div>
+          <!-- Form Group Email -->
+          <div class="mb-2 row">
+            <label class="col-md-4 col-lg-4 col-form-label">Email</label>
+            <div class="col-md-8 col-lg-8">
+              <input type="email" id="email" name="email" class="form-control" placeholder="Email">
+            </div>
+          </div>
+          <!-- Form Group Consulta-->
+          <div class="mb-4 row">
+            <label class="col-md-4 col-lg-4 col-form-label">Consulta</label>
+            <div class="col-md-8 col-lg-8">
+              <textarea id="consulta" name="consulta" class="form-control"></textarea>
+            </div>
+          </div>
+          <!-- Form Group Button-->
+          <div class="mb-2 row mt-3">
+            <button type="submit" class="btn btn-success w-100 d-block">Enviar Consulta</button>
+          </div>
+        </form>
+      </div>
+
+  </section>
+
+
+
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
