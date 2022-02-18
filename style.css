@@ -38,3 +38,8 @@ nav ul li a {
 nav ul {
   border-bottom: none !important;
 }
+
+/* svg */
+svg {
+  width: 50px;
+}
