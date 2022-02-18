@@ -6,6 +6,10 @@
   background-image: url("main.jpg");
 }
 
+a {
+  text-decoration: none;
+}
+
 .content {
   min-height: 60vh;
   color: white;
@@ -42,4 +46,9 @@ nav ul {
 /* svg */
 svg {
   width: 50px;
+}
+
+/* Footer */
+#footer {
+  background-color: #18444c;
 }
